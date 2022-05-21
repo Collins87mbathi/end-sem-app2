@@ -9,10 +9,10 @@ export default ({ server }: { server: ServerType }) => {
 
 	io.on(socketEvents.connection, (socket) => {
 		console.log('New client connected');
-        socket.emit('message', 'Welcome to the chat app');
-        socket.on(socketEvents.disconnect, ()=> {
-            console.log('Client disconnected');
-        });
+		socket.emit('message', 'Welcome to the chat app');
+		socket.on(socketEvents.disconnect, ()=> {
+			console.log('Client disconnected');
+		});
 	});
 
 	return server;

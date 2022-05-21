@@ -1,8 +1,8 @@
-import express from "express"
-import expressApp from "./../express"
+import express from 'express';
+import expressApp from './../express';
 
-const app = express()
+const app = express();
 
-expressApp({ app })
+expressApp({ app });
 
-export default app
+export default app;
