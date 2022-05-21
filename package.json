@@ -2,7 +2,7 @@
   "name": "cat-backend-app2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./build/src/index.js",
   "scripts": {
     "start": "node ./build/src/index.js",
     "dev": "nodemon ./src/index.ts",
