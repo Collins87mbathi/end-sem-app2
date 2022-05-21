@@ -1,4 +1,4 @@
-## A web based chat platform for friends and groups
+# A web based chat platform for friends and groups
 Implementation of `socket.io` with `typescript`,`nodejs`,`expressjs` and `ejs`
 
 # Development
