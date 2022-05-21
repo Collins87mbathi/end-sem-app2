@@ -8,4 +8,4 @@ baseRouter.get('/', (req, res) => {
 });
 
 
-export  { baseRouter };
+export { baseRouter };
