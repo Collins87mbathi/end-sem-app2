@@ -8,6 +8,7 @@
     "dev": "nodemon ./src/index.ts",
     "build": "rimraf ./build && rimraf ./dist &&  tsc && ts-node ./scripts/static-tools/copy-assets.ts ",
     "lint": "eslint . --ext .ts",
+    "prestart":"yarn build",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
