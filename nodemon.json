@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "src/**/*.json",
+        "src/**/*.html",
+        "src/**/*.md",
+        "src/**/*.mdx"
+    ],
+    "ignore": [],
+    "exec": "ts-node ./src/index.ts"
+}
