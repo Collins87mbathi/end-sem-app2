@@ -37,7 +37,12 @@ export default ({ app }: { app: Application }) => {
     app.all('*', (req, res, next) => {
         return res.status(404).json({
             status: 404,
-            message: 'Not Found'
+            message: 'Not Found',
+            data: {
+                params: req.params,
+                body: req.body,
+                url: req.url
+            }
         })
     });
 
